@@ -9,24 +9,6 @@
 </head>
 <body>
     <script src="https://unpkg.com/netlify-cms@~0.5/dist/cms.js"></script>
-    <script>
-        var PostPreview = createClass({
-          render: function() {
-            var entry = this.props.entry;
-            console.log(entry.toJS());
-            /*var image = entry.getIn(['data', 'image']);
-            var bg = this.props.getAsset(image);
-            return h('div', {},
-              h('h1', {}, entry.getIn(['data', 'title'])),
-              h('img', {src: bg.toString()}),
-              h('div', {"className": "text"}, this.props.widgetFor('body'))
-          );*/
-
-            return h('div', {"dangerouslySetInnerHTML": {"__html":'blet'}});
-          }
-        });
-
-        CMS.registerPreviewTemplate("newsletters", PostPreview);
-    </script>
+    <script src="bundle.js"></script>
 </body>
 </html>
