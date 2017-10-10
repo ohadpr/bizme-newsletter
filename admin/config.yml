@@ -6,11 +6,21 @@ backend:
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: "templates" # Used in routes, e.g., /admin/collections/blog
-    label: "Templates" # Used in the UI
-    folder: "templates" # The path to the folder where the documents are stored
+  - name: "newsletters" # Used in routes, e.g., /admin/collections/blog
+    label: "Newsletters" # Used in the UI
+    folder: "newsletters" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}"
     fields:
-      - {label: Title, name: title, widget: string}
-      - {label: Body, name: body, widget: markdown}
+      - {label: Prefix, name: prefix, widget: string}
+      - name: posts
+        label: Posts
+        widget: list
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Blurb, name: blurb, widget: string}
+          - {label: Link, name: link, widget: string}
+          - {label: Type, name: type, widget: list, default: ['ARTICLE', 'COMMUNITY', 'INTERVIEW', 'POLL']}
+      - {label: Callout, name: callout, widget: string}
+      - {label: Suffix, name: suffix, widget: string}
+      
