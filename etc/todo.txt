@@ -1,0 +1,5 @@
+todo:
+
+- render preview of email
+- ensure newsletters are saved
+- for each newsletter saved statically generate a page with its subject, its HTML preview and a quick option to copy its HTML for use in other programs
