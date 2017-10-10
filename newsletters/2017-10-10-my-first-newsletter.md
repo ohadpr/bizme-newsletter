@@ -1,7 +1,10 @@
 ---
 id: '100'
 subject: my first newsletter
-intro: blet
+intro: >-
+  "You should find joy in the process. Don't risk everything. You should be
+  resolute (stubborn in a positive way). Success will come in ways you never
+  expected." —Philippe Lehoux, CEO of Missive and ConferenceBadge
 posts:
   - blurb: wwer
     image: wer
@@ -10,3 +13,4 @@ posts:
 callout: wkeprok
 closing: powkerw
 ---
+
