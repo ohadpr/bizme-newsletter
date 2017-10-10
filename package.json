@@ -1,0 +1,24 @@
+{
+  "name": "bizme-newsletter",
+  "version": "1.0.0",
+  "description": "",
+  "main": " ",
+  "dependencies": {
+    "raw-loader": "^0.5.1",
+    "webpack": "^3.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohadpr/bizme-newsletter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohadpr/bizme-newsletter/issues"
+  },
+  "homepage": "https://github.com/ohadpr/bizme-newsletter#readme"
+}
