@@ -21,6 +21,6 @@ collections:
           - {label: Blurb, name: blurb, widget: string}
           - {label: Link, name: link, widget: string}
           - {label: Image, name: image, widget: string}
-          - {label: Type, name: type, widget: select, default: ['ARTICLE', 'COMMUNITY', 'INTERVIEW', 'POLL']}
+          - {label: Type, name: type, widget: select, options: ['ARTICLE', 'COMMUNITY', 'INTERVIEW', 'POLL']}
       - {label: Callout, name: callout, widget: string}
       - {label: Suffix, name: suffix, widget: string}
