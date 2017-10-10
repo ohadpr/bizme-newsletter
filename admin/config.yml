@@ -14,7 +14,7 @@ collections:
     fields:
       - {label: ID, name: id, widget: number}
       - {label: Subject, name: subject, widget: string}
-      - {label: Prefix, name: prefix, widget: string}
+      - {label: Intro, name: intro, widget: string}
       - name: posts
         label: Posts
         widget: list
@@ -25,4 +25,4 @@ collections:
           - {label: Image, name: image, widget: string}
           - {label: Type, name: type, widget: select, options: ['ARTICLE', 'COMMUNITY', 'INTERVIEW', 'POLL']}
       - {label: Callout, name: callout, widget: string}
-      - {label: Suffix, name: suffix, widget: string}
+      - {label: Closing, name: closing, widget: string}
