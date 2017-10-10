@@ -13,7 +13,7 @@
         var PostPreview = createClass({
           render: function() {
             var entry = this.props.entry;
-            console.log(entry);
+            console.log(entry.toJS());
             /*var image = entry.getIn(['data', 'image']);
             var bg = this.props.getAsset(image);
             return h('div', {},
