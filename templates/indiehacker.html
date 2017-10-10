@@ -11,7 +11,7 @@
             <tr>
               <td style="padding:0 18px;">
                 <div style="color:hsl(0, 0%, 50%); font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:16px; line-height:1.5em;">
-                  <p>{{intro}}</p>
+                  <p>{{& intro}}</p>
                 </div>
               </td>
             </tr>
@@ -24,7 +24,7 @@
 
             <tr>
               <td style="padding:0 0 18px; text-align:center;" align="center">
-                <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/dpheh0/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS8_dXRtX3NvdXJjZT1JbmRpZStIYWNrZXJzK05ld3NsZXR0ZXImdXRtX2NhbXBhaWduPWluZGllLWhhY2tlcnMtbmV3c2xldHRlci0wNjEmdXRtX21lZGl1bT1lbWFpbA==" style="display:inline-block;" target="_blank">
+                <a href="https://blog.biz.me" style="display:inline-block;" target="_blank">
                   <img align="center" alt="Indie Hackers" src="https://storage.googleapis.com/indie-hackers.appspot.com/mailing-list/indie-hackers-logo--pink.jpg" style="height:25px; width:144px;" width="144">
                 </a>
               </td>
@@ -32,7 +32,7 @@
 
             <tr>
               <td>
-{{#posts}}
+                {{#posts}}
                 <table class="story" style="">
                   <tbody>
                     <tr>
@@ -40,11 +40,13 @@
                         <p style="margin:0 0 6px;">
                           <font color="#a9a9a9" face="Helvetica Neue, Helvetica, Arial, sans-serif"><a href="{{link}}" target="_blank" style="background-color:hsl(210, 80%, 60%); border-radius:2px; color:white; font-size:10px; font-weight:bold; line-height:22.5px; padding:4px 6px; text-decoration:none;">INTERVIEW</a></font>
                         </p>
+                        {{#image}}
                         <div class="story__image-wrapper" style="margin: 0px 0px 6px;">
                           <a href="{{link}}" target="_blank">
                             <img align="center" alt="{{title}}" src="{{image}}" style="border-radius:3px; width:100%;">
                           </a>
                         </div>
+                        {{/image}}
                         <p style="margin:0 0 4px; padding:0;">
                           <a href="{{link}}" style="color:hsl(210, 10%, 10%) !important; font-size:19px; font-weight:bold; line-height:1.35em; text-decoration:none;" target="_blank">{{title}}</a>
                         </p>
@@ -57,134 +59,7 @@
                     </tr>
                   </tbody>
                 </table>
-{{/posts}}
-
-                <table class="story" style="">
-                  <tbody>
-                    <tr>
-                      <td style="padding:9px 18px;">
-                        <p style="margin:0 0 6px;">
-                          <font color="#a9a9a9" face="Helvetica Neue, Helvetica, Arial, sans-serif"><a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/pnceh9/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9mb3J1bS9wb3N0Ly1LdnhoVHNJWmwyNnVqT2o3YkwzP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" target="_blank" style="background-color:hsl(210, 80%, 60%); border-radius:2px; color:white; font-size:10px; font-weight:bold; line-height:22.5px; padding:4px 6px; text-decoration:none;">COMMUNITY</a></font>
-                        </p>
-
-                        <p style="margin:0 0 4px; padding:0;">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/xksph6/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9mb3J1bS9wb3N0Ly1LdnhoVHNJWmwyNnVqT2o3YkwzP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" style="color:hsl(210, 10%, 10%) !important; font-size:19px; font-weight:bold; line-height:1.35em; text-decoration:none;" target="_blank">Out of content ideas? Use this cheat sheet instead</a>
-                        </p>
-                        <font face="Helvetica Neue, Helvetica, Arial, sans-serif">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/60aeh8/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9mb3J1bS9wb3N0Ly1LdnhoVHNJWmwyNnVqT2o3YkwzP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" style="color:hsl(210, 6%, 50%); font-size:15px; line-height:150%; text-decoration:none;" target="_blank">
-                            Content marketing is an effective way to drive traffic to your site, but finding compelling topics to write about can be difficult. So BenSim has made a cheat sheet of basic formulas to keep your idea factory running. Do you have any formulas of your own to add to the list?
-                          </a>
-                        </font>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table class="story" style="">
-                  <tbody>
-                    <tr>
-                      <td style="padding:9px 18px;">
-                        <p style="margin:0 0 6px;">
-                          <font color="#a9a9a9" face="Helvetica Neue, Helvetica, Arial, sans-serif"><a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/kmbmh6/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9AQ2FsbHVtMzBGaWd1cmVkL2Etd29yZC1vZi13YXJuaW5nLXdoeS15b3VyLW5ld3NsZXR0ZXItZW1haWxzLW1pZ2h0LW5vdC1iZS1yZWFjaGluZy15b3VyLWF1ZGllbmNlLTkwYTNiZmZlZDQ_dXRtX3NvdXJjZT1JbmRpZStIYWNrZXJzK05ld3NsZXR0ZXImdXRtX2NhbXBhaWduPWluZGllLWhhY2tlcnMtbmV3c2xldHRlci0wNjEmdXRtX21lZGl1bT1lbWFpbA==" target="_blank" style="background-color:hsl(210, 80%, 60%); border-radius:2px; color:white; font-size:10px; font-weight:bold; line-height:22.5px; padding:4px 6px; text-decoration:none;">ARTICLE</a></font>
-                        </p>
-
-                        <p style="margin:0 0 4px; padding:0;">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/52hvh7/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9AQ2FsbHVtMzBGaWd1cmVkL2Etd29yZC1vZi13YXJuaW5nLXdoeS15b3VyLW5ld3NsZXR0ZXItZW1haWxzLW1pZ2h0LW5vdC1iZS1yZWFjaGluZy15b3VyLWF1ZGllbmNlLTkwYTNiZmZlZDQ_dXRtX3NvdXJjZT1JbmRpZStIYWNrZXJzK05ld3NsZXR0ZXImdXRtX2NhbXBhaWduPWluZGllLWhhY2tlcnMtbmV3c2xldHRlci0wNjEmdXRtX21lZGl1bT1lbWFpbA==" style="color:hsl(210, 10%, 10%) !important; font-size:19px; font-weight:bold; line-height:1.35em; text-decoration:none;" target="_blank">A Word Of Warning: Why Your Newsletter Emails Might Not Be Reaching Your Audience</a>
-                        </p>
-                        <font face="Helvetica Neue, Helvetica, Arial, sans-serif">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/2ou2ho/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9AQ2FsbHVtMzBGaWd1cmVkL2Etd29yZC1vZi13YXJuaW5nLXdoeS15b3VyLW5ld3NsZXR0ZXItZW1haWxzLW1pZ2h0LW5vdC1iZS1yZWFjaGluZy15b3VyLWF1ZGllbmNlLTkwYTNiZmZlZDQ_dXRtX3NvdXJjZT1JbmRpZStIYWNrZXJzK05ld3NsZXR0ZXImdXRtX2NhbXBhaWduPWluZGllLWhhY2tlcnMtbmV3c2xldHRlci0wNjEmdXRtX21lZGl1bT1lbWFpbA==" style="color:hsl(210, 6%, 50%); font-size:15px; line-height:150%; text-decoration:none;" target="_blank">
-                            Callum Hornigold: Your newsletter emails are likely being sent to the Promotions Tab in Gmail — where your audience is far less likely to find them — rather than the Primary Tab." 📩
-                          </a>
-                        </font>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table class="story" style="">
-                  <tbody>
-                    <tr>
-                      <td style="padding:9px 18px;">
-                        <p style="margin:0 0 6px;">
-                          <font color="#a9a9a9" face="Helvetica Neue, Helvetica, Arial, sans-serif"><a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/q3i8h7/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9mb3J1bS9wb3N0Ly1LdnNFamlvMkRfRzRHMUdSOG12P3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" target="_blank" style="background-color:hsl(210, 80%, 60%); border-radius:2px; color:white; font-size:10px; font-weight:bold; line-height:22.5px; padding:4px 6px; text-decoration:none;">COMMUNITY</a></font>
-                        </p>
-
-                        <p style="margin:0 0 4px; padding:0;">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/gvfnh5/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9mb3J1bS9wb3N0Ly1LdnNFamlvMkRfRzRHMUdSOG12P3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" style="color:hsl(210, 10%, 10%) !important; font-size:19px; font-weight:bold; line-height:1.35em; text-decoration:none;" target="_blank">Selling your internet business? Meet Soochi.</a>
-                        </p>
-                        <font face="Helvetica Neue, Helvetica, Arial, sans-serif">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/93tzhn/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9mb3J1bS9wb3N0Ly1LdnNFamlvMkRfRzRHMUdSOG12P3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" style="color:hsl(210, 6%, 50%); font-size:15px; line-height:150%; text-decoration:none;" target="_blank">
-                            soochiAP has built a site where makers can share the stories of their businesses with potential buyers. Would you be comfortable using a service like this? If not, mind leaving some feedback on why?
-                          </a>
-                        </font>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table class="story" style="">
-                  <tbody>
-                    <tr>
-                      <td style="padding:9px 18px;">
-                        <p style="margin:0 0 6px;">
-                          <font color="#a9a9a9" face="Helvetica Neue, Helvetica, Arial, sans-serif"><a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/3wcphk/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9AaWxhbmdvcmFqYWdvcGFsL2lkZWEtdG8tbGF1bmNoLWJ1aWxkaW5nLWEtc2lkZS1wcm9qZWN0LWluLXB1YmxpYy00NGYwZjAwOGY0P3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" target="_blank" style="background-color:hsl(210, 80%, 60%); border-radius:2px; color:white; font-size:10px; font-weight:bold; line-height:22.5px; padding:4px 6px; text-decoration:none;">ARTICLE</a></font>
-                        </p>
-
-                        <p style="margin:0 0 4px; padding:0;">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/nesohv/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9AaWxhbmdvcmFqYWdvcGFsL2lkZWEtdG8tbGF1bmNoLWJ1aWxkaW5nLWEtc2lkZS1wcm9qZWN0LWluLXB1YmxpYy00NGYwZjAwOGY0P3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" style="color:hsl(210, 10%, 10%) !important; font-size:19px; font-weight:bold; line-height:1.35em; text-decoration:none;" target="_blank">Idea to Launch: Building a Side Project in Public</a>
-                        </p>
-                        <font face="Helvetica Neue, Helvetica, Arial, sans-serif">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/43avhe/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9AaWxhbmdvcmFqYWdvcGFsL2lkZWEtdG8tbGF1bmNoLWJ1aWxkaW5nLWEtc2lkZS1wcm9qZWN0LWluLXB1YmxpYy00NGYwZjAwOGY0P3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" style="color:hsl(210, 6%, 50%); font-size:15px; line-height:150%; text-decoration:none;" target="_blank">
-                            ilangorajagopal: "By recording the problems I go through and how I solve them, and the tools and resources I use, I'm hoping it will help someone. Someone might even get enough confidence to start their journey."
-                          </a>
-                        </font>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table class="story" style="position: relative;">
-                  <tbody>
-                    <tr>
-                      <td style="padding:9px 18px;">
-                        <p style="margin:0 0 6px;">
-                          <font color="#a9a9a9" face="Helvetica Neue, Helvetica, Arial, sans-serif"><a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/w4b2hg/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9mb3J1bS9wb3N0Ly1Ldm1uNVBqZzhMY1R1VDd1ZElvP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" target="_blank" style="background-color:hsl(210, 80%, 60%); border-radius:2px; color:white; font-size:10px; font-weight:bold; line-height:22.5px; padding:4px 6px; text-decoration:none;">COMMUNITY</a></font>
-                        </p>
-
-                        <p style="margin:0 0 4px; padding:0;">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/rxh8ho/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9mb3J1bS9wb3N0Ly1Ldm1uNVBqZzhMY1R1VDd1ZElvP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" style="color:hsl(210, 10%, 10%) !important; font-size:19px; font-weight:bold; line-height:1.35em; text-decoration:none;" target="_blank">What are you doing that doesn't scale?</a>
-                        </p>
-                        <font face="Helvetica Neue, Helvetica, Arial, sans-serif">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/0luwh9/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9mb3J1bS9wb3N0Ly1Ldm1uNVBqZzhMY1R1VDd1ZElvP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" style="color:hsl(210, 6%, 50%); font-size:15px; line-height:150%; text-decoration:none;" target="_blank">
-                            RyanB: An important part of getting any business off the ground is doing things that don't scale; putting in the extra effort initially to get your first handful of customers. I'm curious, what is everyone dedicating that extra 1% of effort to and is it working for you? 💪
-                          </a>
-                        </font>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
-                <table class="story" style="position: relative;">
-                  <tbody>
-                    <tr>
-                      <td style="padding:9px 18px;">
-                        <p style="margin:0 0 6px;">
-                          <font color="#a9a9a9" face="Helvetica Neue, Helvetica, Arial, sans-serif"><a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/8viqho/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9AcGxlaG91eC9uby1sZXNzb24tbGVhcm5lZC1teS0xNS15ZWFyLWpvdXJuZXktdG8tZW50cmVwcmVuZXVyc2hpcC0yNGJmNTYxYmE5P3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" target="_blank" style="background-color:hsl(210, 80%, 60%); border-radius:2px; color:white; font-size:10px; font-weight:bold; line-height:22.5px; padding:4px 6px; text-decoration:none;">ARTICLE</a></font>
-                        </p>
-
-                        <p style="margin:0 0 4px; padding:0;">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/vzf3hr/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9AcGxlaG91eC9uby1sZXNzb24tbGVhcm5lZC1teS0xNS15ZWFyLWpvdXJuZXktdG8tZW50cmVwcmVuZXVyc2hpcC0yNGJmNTYxYmE5P3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" style="color:hsl(210, 10%, 10%) !important; font-size:19px; font-weight:bold; line-height:1.35em; text-decoration:none;" target="_blank">No Lesson Learned: My 15 Year Journey to Entrepreneurship</a>
-                        </p>
-                        <font face="Helvetica Neue, Helvetica, Arial, sans-serif">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/lotehm/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9AcGxlaG91eC9uby1sZXNzb24tbGVhcm5lZC1teS0xNS15ZWFyLWpvdXJuZXktdG8tZW50cmVwcmVuZXVyc2hpcC0yNGJmNTYxYmE5P3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" style="color:hsl(210, 6%, 50%); font-size:15px; line-height:150%; text-decoration:none;" target="_blank">
-                            Philippe Lehoux: "Entrepreneurship is a really long journey. You need to pace yourself if you want to do it long term. It's never too late to learn something new."
-                          </a>
-                        </font>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-
+                {{/posts}}
               </td>
             </tr>
 
