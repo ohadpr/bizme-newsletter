@@ -1,4 +1,4 @@
-import template from 'raw-loader!../templates/indiehacker.html'
+import template from '../templates/indiehacker.html'
 
 var PostPreview = createClass({
   render: function() {
