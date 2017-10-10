@@ -10,8 +10,9 @@ collections:
     label: "Newsletters" # Used in the UI
     folder: "newsletters" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{string}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{subject}}"
     fields:
+      - {label: ID, name: id, widget: number}
       - {label: Subject, name: subject, widget: string}
       - {label: Prefix, name: prefix, widget: string}
       - name: posts
