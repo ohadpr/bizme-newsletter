@@ -32,31 +32,32 @@
 
             <tr>
               <td>
-
+{{#posts}}
                 <table class="story" style="">
                   <tbody>
                     <tr>
                       <td style="padding:9px 18px;">
                         <p style="margin:0 0 6px;">
-                          <font color="#a9a9a9" face="Helvetica Neue, Helvetica, Arial, sans-serif"><a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/e5uph7/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9idXNpbmVzc2VzL2hlcmN1bGVzP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" target="_blank" style="background-color:hsl(210, 80%, 60%); border-radius:2px; color:white; font-size:10px; font-weight:bold; line-height:22.5px; padding:4px 6px; text-decoration:none;">INTERVIEW</a></font>
+                          <font color="#a9a9a9" face="Helvetica Neue, Helvetica, Arial, sans-serif"><a href="{{link}}" target="_blank" style="background-color:hsl(210, 80%, 60%); border-radius:2px; color:white; font-size:10px; font-weight:bold; line-height:22.5px; padding:4px 6px; text-decoration:none;">INTERVIEW</a></font>
                         </p>
                         <div class="story__image-wrapper" style="margin: 0px 0px 6px;">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/78i7h8/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9idXNpbmVzc2VzL2hlcmN1bGVzP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" target="_blank">
-                            <img align="center" alt="Hercules – Workout Performance Tracker App ($3,000/mo)" src="https://storage.googleapis.com/indie-hackers.appspot.com/mailing-list/story-image--hercules.jpg" style="border-radius:3px; width:100%;">
+                          <a href="{{link}}" target="_blank">
+                            <img align="center" alt="{{title}}" src="{{image}}" style="border-radius:3px; width:100%;">
                           </a>
                         </div>
                         <p style="margin:0 0 4px; padding:0;">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/opfkhq/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9idXNpbmVzc2VzL2hlcmN1bGVzP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" style="color:hsl(210, 10%, 10%) !important; font-size:19px; font-weight:bold; line-height:1.35em; text-decoration:none;" target="_blank">Hercules – Workout Performance Tracker App ($3,000/mo)</a>
+                          <a href="{{link}}" style="color:hsl(210, 10%, 10%) !important; font-size:19px; font-weight:bold; line-height:1.35em; text-decoration:none;" target="_blank">{{title}}</a>
                         </p>
                         <font face="Helvetica Neue, Helvetica, Arial, sans-serif">
-                          <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/zvtghn/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9idXNpbmVzc2VzL2hlcmN1bGVzP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=" style="color:hsl(210, 6%, 50%); font-size:15px; line-height:150%; text-decoration:none;" target="_blank">
-                            <em>“I didn't know a thing about bodybuilding, and I had to learn Android development in the process too.”</em> Jérémy Mouzin couldn't find a suitable workout app, so he built his own: Hercules, $3,000/mo. Read about his paint-by-numbers system for driving traffic to a mobile app.
+                          <a href="{{link}}" style="color:hsl(210, 6%, 50%); font-size:15px; line-height:150%; text-decoration:none;" target="_blank">
+                            {{blurb}}
                           </a>
                         </font>
                       </td>
                     </tr>
                   </tbody>
                 </table>
+{{/#posts}}
 
                 <table class="story" style="">
                   <tbody>
