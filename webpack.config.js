@@ -1,5 +1,5 @@
 module.exports = {
-    entry: './admin/admin.js',
+    entry: './web/admin/admin.js',
     output: {
         filename: './admin/bundle.js'
     },
