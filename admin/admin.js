@@ -10,6 +10,7 @@ var PostPreview = createClass({
     data['closing'] = data['closing'].split(/[\r\n]+/)
                         .map(function(line) { return { line: line } });
 
+    console.log(data['closing']);
     var html = mustache.render(template, data);
     return h('div', {"dangerouslySetInnerHTML": {"__html":html}});
   }
