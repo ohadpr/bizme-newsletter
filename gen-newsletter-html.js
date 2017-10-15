@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 // Include our 'js-yaml' module.
 var yaml = require("js-yaml");
 var fs = require('fs');

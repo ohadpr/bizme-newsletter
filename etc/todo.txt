@@ -3,10 +3,23 @@ todo:
 
 
 - for each newsletter saved statically generate a page with its subject, its HTML preview and a quick option to copy its HTML for use in other programs
-- move this project to admin.biz.me & update image urls in templates accordingly
 - setup reply-to email address?
+- move duplicate code from gen-newsletter-html to existing or new bundle.js using webpack
 
+V - move this project to admin.biz.me & update image urls in templates accordingly
 V - update the logo and footer to biz.me
 V - ensure newsletters are saved
 V - render preview of email
 V - make all fields dynamic
+
+
+
+last newsletter sent    -   10/10/2017
+
+    It's probably not your pricing
+    Get out there this season
+    Elevate customer support
+    Customer retention techniques that work
+
+
+sep 15th (newsletter D)

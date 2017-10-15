@@ -1,10 +1,40 @@
 <html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+</head>
 <body>
-    <h1>Newsletters</h1>
-    <ul>
-        {{#newsletters}}
-            <li>{{id}} - <a href="{{id}}.html">{{subject}}</a></li>
-        {{/newsletters}}
-    </ul>
+    <div>
+        <h1>Newsletters</h1>
+        <ul>
+            {{#newsletters}}
+                <li>{{id}} - <a href="{{id}}.html">{{subject}}</a></li>
+            {{/newsletters}}
+        </ul>
+    </div>
+    <div style="float:right">
+        <button id="copy">copy newsletter html</button>
+        <br>
+        <br>
+        <iframe style="border:2px solid black; width: 800px; height:100%">
+        </iframe>
+    </div>
+    <script>
+        $( document ).ready(function() {
+            $('li a').click(function(e){
+                e.preventDefault();
+                var href = $(this).attr('href');
+                $('iframe').attr('src', href);
+
+                $.get(href, function(response) {
+                    new Clipboard('#copy', {
+                        text: function(trigger) {
+                            return response;
+                        }
+                    });
+                });
+            })
+        });
+    </script>
 </body>
 </html>
