@@ -3,12 +3,12 @@ backend:
   repo: ohadpr/bizme-newsletter
   branch: master
 
-media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+media_folder: "web/images/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
   - name: "newsletters" # Used in routes, e.g., /admin/collections/blog
     label: "Newsletters" # Used in the UI
-    folder: "newsletters" # The path to the folder where the documents are stored
+    folder: "/newsletters" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{subject}}"
     fields:
