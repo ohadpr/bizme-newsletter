@@ -1,4 +1,4 @@
-import template from '../templates/bizme-newsletter.html'
+import template from '../../templates/bizme-newsletter.html'
 import mustache from "mustache";
 
 var PostPreview = createClass({
