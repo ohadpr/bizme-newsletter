@@ -58,7 +58,7 @@ posts:
     link: 'http://blog.biz.me/featured-business-piano-made-fun/'
     title: Featured business – Piano Made Fun
     type: INTERVIEW
-callout: "Interested in being highlighted as Business of the week? <span class=\"link\">submit your info</span>! \U0001F64C"
+callout: "Want to share your business story with the community? <span class=\"link\">submit your info</span>! \U0001F64C"
 calloutLink: 'https://goo.gl/forms/CEj11eqN42HwIje63'
 closing: >-
   Hope everyone had a great weekend!
