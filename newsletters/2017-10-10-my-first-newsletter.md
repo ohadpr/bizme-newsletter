@@ -6,24 +6,57 @@ intro: >-
   quickly, and get on with improving your other innovations." — Steve Jobs
 posts:
   - blurb: >-
-      <em>“I didn't know a thing about bodybuilding, and I had to learn Android
-      development in the process too.”</em> Jérémy Mouzin couldn't find a
-      suitable workout app, so he built his own: Hercules, $3,000/mo. Read about
-      his paint-by-numbers system for driving traffic to a mobile app.
+      No matter your reason, changing your business name can be costly,
+      stressful, and time consuming; but it can also be lucrative. Way back in
+      1992, Sprint was known as United Telecom; in 2008, Kinkos transformed into
+      FedEx Office. These companies handled the renaming process successfully,
+      and you can as well.
     image: >-
-      https://storage.googleapis.com/indie-hackers.appspot.com/mailing-list/story-image--hercules.jpg
-    link: >-
-      https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/zvtghn/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9idXNpbmVzc2VzL2hlcmN1bGVzP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=
-    title: 'Hercules – Workout Performance Tracker App ($3,000/mo)'
-    type: COMMUNITY
+      http://blog.biz.me/wp-content/uploads/2017/09/maxime-staudenmann-122928-1024x683.jpg
+    link: 'http://blog.biz.me/when-your-business-name-no-longer-fits/'
+    title: When your business name no longer fits
+    type: ARTICLE
   - blurb: >-
-      Content marketing is an effective way to drive traffic to your site, but
-      finding compelling topics to write about can be difficult. So BenSim has
-      made a cheat sheet of basic formulas to keep your idea factory running. Do
-      you have any formulas of your own to add to the list?
+      Effective marketing increases donations and gets your message out there,
+      but for most nonprofits, it’s difficult to spend the time making low-cost
+      ideas work. But, shelling out money when, ideally, you want everything to
+      go back in to your cause, also seems unrealistic. By being creative with
+      your marketing efforts, you can dramatically increase funding, supporters,
+      and visibility, with a net positive win for the people or cause you’re
+      trying to help.
     link: >-
-      https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/xksph6/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9mb3J1bS9wb3N0Ly1LdnhoVHNJWmwyNnVqT2o3YkwzP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=
-    title: Out of content ideas? Use this cheat sheet instead
+      http://blog.biz.me/balancing-time-and-funds-6-marketing-ideas-for-nonprofits/
+    title: 'Balancing time and funds: 6 marketing ideas for nonprofits'
+    type: ARTICLE
+  - blurb: >-
+      You know that $200 doesn’t go very far in your personal life, and when it
+      comes to marketing your business that monthly budget can feel like
+      pennies. But with some strategic thinking and a little work, you can
+      actually do a lot with it. First, focus on just one to three channels,
+      targeting avenues where your customers are most likely to see the ad. In
+      this case, it doesn’t pay to cast a wide net.
+    link: >-
+      http://blog.biz.me/when-your-marketing-budget-and-home-utility-budget-match/
+    title: When your marketing budget and home utility budget match
+    type: ARTICLE
+  - blurb: >-
+      Customer databases are the backbone of conversion and retention, giving
+      you information that lets you tailor marketing efforts and programs to
+      your actual customer base. The result? Reduced costs, increased
+      effectiveness, and keeping customers engaged with your brand. These
+      databases are important for service as well as product focused businesses,
+      and useful if you’re a sole proprietor or have 20+ employees.
+    link: >-
+      http://blog.biz.me/beginners-guide-to-creating-an-actionable-customer-database/
+    title: Beginner’s guide to creating an actionable customer database
+    type: ARTICLE
+  - blurb: >-
+      "Like a lot of people today I was afraid to venture out. One day I got the
+      courage and did it. I started with only one student, and then it grew to
+      seven and before you knew it I was having endless phone calls for
+      enquiries to book at Piano Made Fun"
+    link: 'http://blog.biz.me/featured-business-piano-made-fun/'
+    title: Featured business – Piano Made Fun
     type: INTERVIEW
 callout: "Interested in being highlighted as Business of the week? <span class=\"link\">submit your info</span>! \U0001F64C"
 calloutLink: 'https://goo.gl/forms/CEj11eqN42HwIje63'
