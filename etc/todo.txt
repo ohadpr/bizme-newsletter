@@ -1,10 +1,12 @@
 todo:
 
 
-- update the logo and footer to biz.me
-- for each newsletter saved statically generate a page with its subject, its HTML preview and a quick option to copy its HTML for use in other programs
-- this project to admin.biz.me & update image urls in templates accordingly
 
+- for each newsletter saved statically generate a page with its subject, its HTML preview and a quick option to copy its HTML for use in other programs
+- move this project to admin.biz.me & update image urls in templates accordingly
+- setup reply-to email address?
+
+V - update the logo and footer to biz.me
 V - ensure newsletters are saved
 V - render preview of email
 V - make all fields dynamic
