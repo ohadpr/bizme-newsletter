@@ -26,7 +26,19 @@ posts:
       https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/xksph6/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9mb3J1bS9wb3N0Ly1LdnhoVHNJWmwyNnVqT2o3YkwzP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=
     title: Out of content ideas? Use this cheat sheet instead
     type: INTERVIEW
-calloutLink: "www.biz.me"
 callout: "Got a story to share with your fellow indie hackers? Come <span style=\"color:hsl(198, 74%, 52%); text-decoration:underline;\">write an article</span>! \U0001F64C"
-closing: powkerw
+calloutLink: www.biz.me
+closing: >-
+  Hope everyone had a great weekend!
+
+  A lot of you have given me some really good feedback about the new feature I'm
+  working on for Indie Hackers.
+
+  Just wanted to say that I'm reading all of it, and I'm still open to
+  suggestions!
+
+  ❤️,
+
+  Courtland (@csallen)
 ---
+
