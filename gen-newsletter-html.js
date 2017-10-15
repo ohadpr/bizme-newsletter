@@ -1,6 +1,7 @@
 // Include our 'js-yaml' module.
 var yaml = require("js-yaml");
 var fs = require('fs');
+var fsPath = require('fs-path');
 var mustache = require('mustache');
 
 var newsletterDir = 'newsletters';
@@ -21,7 +22,7 @@ for (var i in files) {
 // render listing
 var template = fs.readFileSync('templates/newsletters.html').toString();
 var result = mustache.render(template, {newsletters:newsletters});
-fs.writeFileSync(outputDir + 'index.html', result);
+fsPath.writeFileSync(outputDir + 'index.html', result);
 
 // render newsletters
 template = fs.readFileSync('templates/bizme-newsletter.html').toString();
@@ -32,5 +33,5 @@ for (var i in newsletters) {
                         .map(function(line) { return line });
 
     var result = mustache.render(template, data);
-    fs.writeFileSync(outputDir + data['id'] + '.html', result);
+    fsPath.writeFileSync(outputDir + data['id'] + '.html', result);
 }
