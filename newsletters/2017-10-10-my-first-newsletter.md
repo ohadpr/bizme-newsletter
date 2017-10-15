@@ -16,7 +16,7 @@ posts:
     link: >-
       https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/zvtghn/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9idXNpbmVzc2VzL2hlcmN1bGVzP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=
     title: 'Hercules – Workout Performance Tracker App ($3,000/mo)'
-    type: INTERVIEW
+    type: COMMUNITY
   - blurb: >-
       Content marketing is an effective way to drive traffic to your site, but
       finding compelling topics to write about can be difficult. So BenSim has
@@ -25,8 +25,8 @@ posts:
     link: >-
       https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/xksph6/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9mb3J1bS9wb3N0Ly1LdnhoVHNJWmwyNnVqT2o3YkwzP3V0bV9zb3VyY2U9SW5kaWUrSGFja2VycytOZXdzbGV0dGVyJnV0bV9jYW1wYWlnbj1pbmRpZS1oYWNrZXJzLW5ld3NsZXR0ZXItMDYxJnV0bV9tZWRpdW09ZW1haWw=
     title: Out of content ideas? Use this cheat sheet instead
-    type: COMMUNITY
-callout: wkeprok
+    type: INTERVIEW
+callout: "Got a story to share with your fellow indie hackers? Come <span style=\"color:hsl(198, 74%, 52%); text-decoration:underline;\">write an article</span>! \U0001F64C"
 closing: powkerw
 ---
 
