@@ -1,9 +1,9 @@
 todo:
 
 
-- make all fields dynamic
-- update the logo nad footer to biz.me
+- update the logo and footer to biz.me
 - for each newsletter saved statically generate a page with its subject, its HTML preview and a quick option to copy its HTML for use in other programs
 
 V - ensure newsletters are saved
 V - render preview of email
+V - make all fields dynamic
