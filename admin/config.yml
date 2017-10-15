@@ -26,4 +26,4 @@ collections:
           - {label: Type, name: type, widget: select, options: ['ARTICLE', 'COMMUNITY', 'INTERVIEW', 'POLL']}
       - {label: Callout, name: callout, widget: string}
       - {label: Callout Link, name: calloutLink, widget: string}
-      - {label: Closing, name: closing, widget: string}
+      - {label: Closing, name: closing, widget: text}
