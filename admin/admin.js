@@ -8,9 +8,8 @@ var PostPreview = createClass({
 
     // convert the 'closing' field from a string to an array of strings based on line breaks
     data['closing'] = data['closing'].split(/[\r\n]+/)
-                        .map(function(line) { return { line: line } });
+                        .map(function(line) { return line });
 
-    console.log(data['closing']);
     var html = mustache.render(template, data);
     return h('div', {"dangerouslySetInnerHTML": {"__html":html}});
   }
