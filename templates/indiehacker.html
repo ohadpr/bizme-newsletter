@@ -38,7 +38,7 @@
                     <tr>
                       <td style="padding:9px 18px;">
                         <p style="margin:0 0 6px;">
-                          <font color="#a9a9a9" face="Helvetica Neue, Helvetica, Arial, sans-serif"><a href="{{link}}" target="_blank" style="background-color:hsl(210, 80%, 60%); border-radius:2px; color:white; font-size:10px; font-weight:bold; line-height:22.5px; padding:4px 6px; text-decoration:none;">INTERVIEW</a></font>
+                          <font color="#a9a9a9" face="Helvetica Neue, Helvetica, Arial, sans-serif"><a href="{{link}}" target="_blank" style="background-color:hsl(210, 80%, 60%); border-radius:2px; color:white; font-size:10px; font-weight:bold; line-height:22.5px; padding:4px 6px; text-decoration:none;">{{& type}}</a></font>
                         </p>
                         {{#image}}
                         <div class="story__image-wrapper" style="margin: 0px 0px 6px;">
@@ -62,19 +62,19 @@
                 {{/posts}}
               </td>
             </tr>
-
+{{#callout}}
             <tr>
               <td style="padding:6px 18px 9px;">
                 <div style="background-color:hsl(198,74%,97%) !important; border:2px solid hsl(0, 0%, 93%); border-radius:3px; padding:9px;">
                   <font face="Helvetica Neue, Helvetica, Arial, sans-serif">
-                    <a href="https://el2.convertkit-mail2.com/c/n4u5k5kgofvhx2rq0/mqc7h5/aHR0cHM6Ly93d3cuaW5kaWVoYWNrZXJzLmNvbS9jb250cmlidXRl" style="color:hsl(0, 0%, 20%) !important; text-decoration:none; font-size:15px; line-height:150%;" target="_blank">
-                      Got a story to share with your fellow indie hackers? Come <span style="color:hsl(198, 74%, 52%); text-decoration:underline;">write an article</span>! 🙌
+                    <a href="{{calloutLink}}" style="color:hsl(0, 0%, 20%) !important; text-decoration:none; font-size:15px; line-height:150%;" target="_blank">
+                      {{& callout}}
                     </a>
                   </font>
                 </div>
               </td>
             </tr>
-
+{{/callout}}
             <tr>
               <td style="padding:14px 18px 19px;">
                 <div style="border-top:2px solid hsl(0, 0%, 93%);"></div>
@@ -129,8 +129,8 @@
 		                <tr>
 		                  <td style="padding:10px 20px; color:hsl(0, 0%, 50%); font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:12px; line-height:18.75px;">
 	                      <p style="margin:1em 0;padding:0;">You are receiving this email because you signed up for the Indie Hackers mailing list.</p>
-	                      <p style="margin:1em 0;padding:0;">To get in touch with me (Courtland), just reply to this email! 👋</p>
-	                      <p style="margin:1em 0;padding:0;">You can <a href="http://el2.convertkit-mail2.com/u/n4u5k5kgofvhx2rq0" style="color:hsl(0, 0%, 40%);">unsubscribe</a> from this list at any time.</p>
+	                      <p style="margin:1em 0;padding:0;">To get in touch with me (Scott), just reply to this email! 👋</p>
+	                      <p style="margin:1em 0;padding:0;">You can <a href="https://sitebooster.com/unsubscribe?email=\{{customer.email\}}&type=newsletter" style="color:hsl(0, 0%, 40%);">unsubscribe</a> from this list at any time.</p>
 		                  </td>
 		                </tr>
 		              </tbody>
@@ -143,6 +143,5 @@
     </tr>
   </tbody>
 </table>
-<!-- --><img src="http://el2.convertkit-mail2.com/o/n4u5k5kgofvhx2rq0" alt="">
 </body>
 </html>
