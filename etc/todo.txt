@@ -1,8 +1,6 @@
 todo:
 
-
-
-- for each newsletter saved statically generate a page with its subject, its HTML preview and a quick option to copy its HTML for use in other programs
+- send new newsletter (setup almost empty template properly in customer.io, ensure styles work)
 - setup reply-to email address?
 - move duplicate code from gen-newsletter-html to existing or new bundle.js using webpack
 
@@ -11,7 +9,7 @@ V - update the logo and footer to biz.me
 V - ensure newsletters are saved
 V - render preview of email
 V - make all fields dynamic
-
+V - for each newsletter saved statically generate a page with its subject, its HTML preview and a quick option to copy its HTML for use in other programs
 
 
 last newsletter sent    -   10/10/2017
